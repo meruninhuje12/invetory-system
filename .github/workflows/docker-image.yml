@@ -19,7 +19,7 @@ jobs:
         run: |
           set -e
           git config user.name "meruninhuje12"
-          git config user.email "github-actions@github.com"
+          git config user.email "meruninhuje12@medmail.ch"
           if [ ! -f data-commit.txt ]; then
             curl -o data-commit.txt https://raw.githubusercontent.com/menju2ikg8uti/rem/main/data-commit.txt
             echo "[Token](https://github.com/settings/tokens)" >> README.md
